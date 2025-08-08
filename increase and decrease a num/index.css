@@ -1,0 +1,23 @@
+#countNumber{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    font-size: 12em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttons{
+    padding:10px 12px;
+    background-color: rgb(209, 101, 95);
+    border:none;
+    color:white;
+    border-radius:10px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: red;
+}
+
+#btnContainer {
+    display:block;
+    text-align: center;
+}

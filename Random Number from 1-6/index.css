@@ -1,0 +1,18 @@
+#button{
+    padding:10px 22px;
+    background-color: rgb(160, 235, 160);
+    cursor:pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+#button:hover{
+    background-color: green;
+    color: white
+}
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}

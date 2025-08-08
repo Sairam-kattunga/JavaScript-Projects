@@ -1,0 +1,23 @@
+#box {
+    background-color: rgb(240, 150, 16);
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; /* Loop the animation infinitely */
+    animation-timing-function: linear; /* Smooth animation */
+    animation-direction: alternate; /* Alternate direction each iteration */
+}
+
+@keyframes move {
+    from {
+        top: 0;
+        left: 0;
+    }
+    to {
+        top: 0;
+        left: 100%;
+    }
+}
